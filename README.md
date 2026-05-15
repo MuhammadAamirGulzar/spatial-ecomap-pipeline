@@ -85,7 +85,7 @@ All tunable settings live in the YAML config files. The three key sections to be
 
 **Selecting the right config:**
 - Start with `_flexible.yaml` for any new or custom dataset.
-- The `_GEO.yaml` and `_Zenodo.yaml` files are ready to run as-is for those datasets — no edits needed beyond verifying your data paths are correct after unzipping.
+- The `_GEO.yaml` and `_Zenodo.yaml` files are ready to run as-is for those datasets, no edits needed beyond verifying your data paths are correct after unzipping.
 
 ---
 
@@ -173,7 +173,7 @@ Results are organized under the dataset name:
 Check that all input embedding CSVs exist and that column names match what the config expects.
 
 **Student model accuracy is low (~79%)**
-This is expected. The student only sees morphology (UNI embeddings); the teacher uses three modalities. The accuracy gap directly reflects the missing information — it is not a misconfiguration.
+This is expected. The student only sees morphology (UNI embeddings); the teacher uses three modalities. The accuracy gap directly reflects the missing information, it is not a misconfiguration.
 
 **Visualizations not generated**
 Spatial visualizations require `x_coord` and `y_coord` in `barcode_metadata.csv`. If those columns are missing, only the spatial outputs are skipped — all other visualizations will still generate.
