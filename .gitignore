@@ -67,6 +67,7 @@ Thumbs.db
 
 # Documentation files (development only)
 *.md
+!README.md
 !README_REPRODUCIBLE.md
 
 # Testing and development scripts
